@@ -1,0 +1,12 @@
+.box-about{
+    display: flex;
+    font-size: 80%;
+    justify-content: center;
+}
+
+.about-desc{
+    width: 30%;
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 1.5;
+}

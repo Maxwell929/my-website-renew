@@ -1,0 +1,106 @@
+.header {
+ background: linear-gradient(115deg, rgb(10, 108, 219) 30%, rgb(12, 171, 219) 70%);
+ min-height: 90vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 90%);
+  color: rgb(241, 231, 231);
+  
+  
+}
+
+.header-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 20%;
+  font-size: 100%;
+  line-height: 1.5;
+  
+}
+.box-text{
+  font-size: 150%;
+  font-weight: 800;
+}
+
+.box-image{
+display: flex;
+justify-content: space-around;
+
+}
+
+.image-header{
+  display: flex;
+
+  width: 400px;
+  
+ 
+  
+}
+
+
+.textLoop{
+
+font-size: 160%;
+font-weight: 900;
+
+
+}
+
+
+.logos {
+background-color: blueviolet;
+height: 300px;
+}
+
+
+
+/* DOWN BUTTON */
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #e0e7eb;
+	fill: transparent;
+	stroke-width: 2px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}

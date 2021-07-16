@@ -1,0 +1,54 @@
+.side-drawer {
+  height: 100%;
+  color: aliceblue;
+  background: rgb(110, 102, 102);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  width: 40%;
+  max-width: 400px;
+  z-index: 200;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.side-drawer a {
+  line-height: 2;
+}
+
+.side-drawer a:hover {
+  border-bottom: 3px solid orange;
+  padding-bottom: 2px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.img {
+  width: 40%;
+  padding-top: 5%;
+  margin-bottom: 15%;
+  cursor: pointer;
+}
+
+.button-sidedrawer {
+  color: whitesmoke;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 80;
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.button-sidedrawer:hover {
+  background-color: lightslategray;
+  transition: 1s;
+}
+
+.side-drawer .nav-lang {
+  display: block;
+  text-align: center;
+  padding-left: 5%;
+  font-weight: 0;
+}
