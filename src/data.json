@@ -1,64 +1,56 @@
 {
+    "p1": "Hello, I'm Maximilian!",
+    "p2": "Welcome to my Website!",
+    "loop": [
+        "#React",
+        "#Flutter",
+        "#Machine Learning",
+        "#Web-Development"
+    ],
+    "scroll_down": "SCROLL DOWN",
     "projects": [
         {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
+            "title": "2021 Portfolio-Website",
+            "year": "Sourc Code",
+            "img": "./logo_small.png",
+            "desc": "My personal portfolio website made with React showing all the projects I made.",
+            "github": "https://github.com/Maxwell929/my-website-renew",
+            "website": "https://maximilianstelzl.dev/",
+            "type": "Webpage"
         },
         {
-            "title": "Bauteam Website",
+            "title": "2021 Bauteam-Website",
             "year": "2021",
-            "img": "url"
+            "img": "./logo.svg",
+            "desc": "The web page of the engineering office Bauteam OHG.",
+            "type": "Webpage",
+            "github": "",
+            "website": "https://www.bauteam.it/de/unternehmen"
         },
         {
-            "title": "Bauteam Website",
+            "title": "2021 - Karriere_at Web-Scraper",
             "year": "2021",
-            "img": "url"
+            "img": "karriere-at.png",
+            "desc": "A simple Web-Scrapper for the career-plattform Karriere written in Python with the framework selenium.",
+            "type": "Webpage",
+            "github": "https://github.com/Maxwell929/Python_Webscraper",
+            "website": ""
         },
         {
-            "title": "Bauteam Website",
+            "title": "2021 - Rock, Paper Scissors Game",
             "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
-        },
-        {
-            "title": "Bauteam Website",
-            "year": "2021",
-            "img": "url"
+            "desc": "My very first Mini-Project made with HTML, CSS and Vanilla-JavaScript. Try it out and play a round!",
+            "img": "./rock, paper.png",
+            "github": "https://github.com/Maxwell929/Rock-Paper-Scissors",
+            "website": "https://maxwell929.github.io/Rock-Paper-Scissors/"
         }
-    ]
+    ],
+    "about": "ABOUT ME",
+    "about_me": [
+        "My name is Maximilian and I'm 28 years old. Late but hopefully not too late I discovered my passion for programming.",
+        "After my studies in Marketing & Sales I was putting myself more and more into the world of IT. After the first lines of code in Python and a lot of initial struggling I build more and more enthusiasm for coding.",
+        "I'm interested in topics like Web-Development (HTML, CSS, JavaScript, React), Web-Scraping, App-Development (Flutter), Machine Learning, Linux and other things. My future dream is to become a professional software developer.",
+        "Beside coding and all the interesting IT topics I like to stay outside, play sqaush, deeptalk and cook some good southtyrolean Knödel."
+    ],
+    "github_Logo": "./GitHub.png"
 }
