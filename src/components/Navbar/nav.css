@@ -1,15 +1,12 @@
 .nav {
   position: fixed;
   display: flex;
-  padding: 0%  0%;
+  padding: 5px  0%;
   top: 0;
   width: 100%;
   z-index: 10;
   font-size: 80%;
-  background-color: rgb(38, 38, 70)
-  ;
- 
-  
+  background-color: rgb(38, 38, 70);
 }
 
 .nav .logo {
@@ -22,17 +19,27 @@
   display: flex;
   width: 100%;
   color: whitesmoke;
-
-  
+  margin-right: 20px;
   flex-wrap: wrap;
-  
-  
 justify-content: flex-end;
- 
+}
 
-  
+
+.logos-nav{
+  width: auto;
+  height: 30px;
+  color: #fff;
+  margin: 10px 20px 0 20px;
+  margin-right: 20px;
   
 }
+
+.logos-nav:hover{
+  color: gray;
+  
+}
+
+/* BUTTON NAV */
 
 .nav .nav-links button {
   font-size: 80%;
@@ -66,7 +73,6 @@ button::before, button::after{
   background: #fff;
   
 }
-
 
 span::before, span::after{
   content:"";

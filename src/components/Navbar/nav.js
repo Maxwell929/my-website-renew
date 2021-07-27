@@ -1,10 +1,11 @@
 import React from "react";
 import { useState } from "react";
-
+import data from "./../../data.json";
 import "./nav.css";
 import { Link } from "react-scroll";
 import Fade from 'react-reveal/Fade';
-import logo from "./logo_small.png"
+import logo from "./logo_small.png";
+import { FaGithub } from 'react-icons/fa';
 
 
 
@@ -19,17 +20,17 @@ const Navbar = () => {
       </Fade>
       <div className="nav-links">
         <Fade top duration={1500} delay={0} distance="50px">
-          <Link to="about" smooth duration={1000} smooth={true}><button class="btn-4"><span>About me</span></button>
+          <Link to="about" smooth duration={1000} smooth={true}><button class="btn-4"><span>{data.nav1}</span></button>
           </Link>
         </Fade>
         <Fade top duration={1500} delay={300} distance="50px">
-          <Link to="projects" smooth duration={1000} smooth={true}> <button class="btn-4"><span>Projects</span></button>
+          <Link to="projects" smooth duration={1000} smooth={true}> <button class="btn-4"><span>{data.nav2}</span></button>
           </Link>
         </Fade>
-        <Fade top duration={1500} delay={600} distance="50px">
-          <Link to="contact" smooth duration={1000} smooth={true}> <button class="btn-4"><span>Contact</span></button>
-          </Link>
+        <Fade top duration={1500} delay={300} distance="50px">
+          <a href={data.nav_github} target={"_blank"}><FaGithub className="logos-nav" /></a>
         </Fade>
+
       </div >
 
 
