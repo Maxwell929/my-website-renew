@@ -26,15 +26,11 @@
 .box-image{
 display: flex;
 justify-content: space-around;
-
 }
 
 .image-header{
   display: flex;
-
   width: 400px;
-  
- 
   
 }
 
@@ -44,18 +40,16 @@ justify-content: space-around;
 font-size: 160%;
 font-weight: 900;
 
-
 }
 
 
 .logos {
-background-color: blueviolet;
 height: 300px;
 }
 
 
 
-/* DOWN BUTTON */
+/* DOWN ARROWS*/
 
 .arrows {
 	width: 60px;
@@ -64,6 +58,8 @@ height: 300px;
 	left: 50%;
 	margin-left: -30px;
 	bottom: 20px;
+	cursor: pointer;
+	
 }
 
 .arrows path {
@@ -104,3 +100,15 @@ height: 300px;
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+
+
+
+
+
+
+
+
+
+
+
+	
