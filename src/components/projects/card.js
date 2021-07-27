@@ -7,19 +7,12 @@ import Fade from 'react-reveal/Fade';
 import data from "./../../data.json";
 import { FaGithub } from 'react-icons/fa';
 import { BiWorld } from "react-icons/bi";
-
+import Icons from "./icons/icons";
 
 
 
 const Card = () => {
-
-
-
-
     let time = 0
-
-
-
     return (
         <section id="projects" className="projects">
             <h2>Projects</h2>
@@ -27,28 +20,6 @@ const Card = () => {
 
                 {data.projects.map((d) => {
                     time = time + 300;
-                    let webpage;
-                    let github;
-                    if (d.website == "") {
-                        webpage = <a></a>;
-                    }
-
-                    else {
-                        webpage = <a href={d.website} target={"_blank"}>
-                            <BiWorld className="logos" />
-                        </a>
-                    };
-
-                    if (d.github == "") {
-                        github = <a></a>;
-                    }
-
-                    else {
-                        github =
-                            <a href={d.github} target={"_blank"}><FaGithub className="logos" /></a>
-
-                    };
-
                     return (
                         <Fade bottom duration={1500} delay={time} distance="400px" >
                             <div className="">
@@ -65,8 +36,7 @@ const Card = () => {
                                                 <div className="card-container">
                                                     <h6>{d.title}</h6>
                                                     <div className="box-logos">
-                                                        {github}
-                                                        {webpage}
+                                                        <Icons data={d}/>
                                                     </div>
 
                                                 </div>
