@@ -1,14 +1,14 @@
-.about{
-    background: white;
+.about {
+    background: rgb(240, 237, 237);
 }
 
-.box-about{
+.box-about {
     display: flex;
     font-size: 80%;
     justify-content: center;
 }
 
-.about-desc{
+.about-desc {
     width: 30%;
     text-align: justify;
     margin-left: 50px;
