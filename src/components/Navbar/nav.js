@@ -10,7 +10,6 @@ import { FaGithub } from 'react-icons/fa';
 
 
 
-
 const Navbar = () => {
   return (
     <section className="nav">
