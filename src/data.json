@@ -20,7 +20,7 @@
     ],
     "projects": [
         {
-            "title": "Portfolio-Website",
+            "title": "Personal-Portfolio-Website",
             "year": "Sourc Code",
             "img": "./logo_small.png",
             "desc": "My personal portfolio website made with React showing all the projects I made.",
