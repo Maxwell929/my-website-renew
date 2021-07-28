@@ -1,27 +1,29 @@
 import { React, useState } from "react";
-import "./../cards.css";
+import Fade from "react-reveal/Fade";
 import { FaGithub } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 import ReactTooltip from "react-tooltip";
 
 const Icons = ({ data }) => {
+
+
     let webpage;
     let github;
 
-    const tooltipWeb = (
-        <ReactTooltip id="Website" place="bottom" effect="solid">
+    let tooltipWeb = (
+        <ReactTooltip id="Website" place="top" effect="solid">
             Website
         </ReactTooltip>
     );
 
-    const tooltipGit = (
-        <ReactTooltip id="Github" place="bottom" effect="solid">
+    let tooltipGit = (
+        <ReactTooltip id="Github" place="top" effect="solid" >
             Github
         </ReactTooltip>
     );
 
-    if (data.website == "") {
-        webpage = <a rel="noopener" href=""></a>;
+    if (data.website === "") {
+        webpage = "";
     } else {
         webpage = (
             <>
@@ -39,8 +41,8 @@ const Icons = ({ data }) => {
         );
     }
 
-    if (data.github == "") {
-        github = <a rel="noopener" href=""></a>;
+    if (data.github === "") {
+        github = "";
     } else {
         github = (
             <>
@@ -60,8 +62,25 @@ const Icons = ({ data }) => {
 
     return (
         <>
-            {github}
-            {webpage}
+        
+                            <div className="">
+                                <div class="flip-card" >                        
+                                            <div className="box-back">
+                                                <div className="card-container">
+                                                     <p className="header-card">{data.title}</p>
+                                                    <div className="box-logos">
+                                                        {github}
+                                                        {webpage}
+                                                    </div>
+                                                </div>
+                                                <div className="card-container">
+                                                    <p className="container-desc">{data.desc}</p>
+                                                    <img className="img-card-back" src={data.img} />
+                                                </div>
+                                            </div>
+                                </div>
+                            </div>
+                       
         </>
     );
 };
