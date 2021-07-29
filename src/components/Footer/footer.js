@@ -9,16 +9,16 @@ import ReactTooltip from "react-tooltip";
 const Footer = () => {
   return (
     <div className="footer">
-       <a href={data.nav_github} target={"_blank"}><FaGithub className="logos-nav" data-tip
-                    data-for="Github" /></a>
+      <a href={data.nav_github} target={"_blank"} rel="noopener"><FaGithub className="logos-nav" data-tip
+        data-for="Github" /></a>
 
-       
-        <ReactTooltip id="Github" place="top" effect="solid" >
-            Github
-        </ReactTooltip>
+
+      <ReactTooltip id="Github" place="top" effect="solid" >
+        Github
+      </ReactTooltip>
 
       <p className="footer-name">2021 Maximilian Stelzl</p>
-      
+
 
     </div>
   );

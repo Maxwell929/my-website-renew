@@ -13,6 +13,7 @@
     height: 50px;
     margin-left: 50px;
     cursor: pointer;
+    object-fit: scale-down;
 }
 
 .nav .nav-links {

@@ -34,9 +34,9 @@ const Cards = ({ data }) => {
                     data-tip
                     data-for="Website"
                 >
-                    <BiWorld className="logos" />
+                    <BiWorld className="logos" />{tooltipWeb}
                 </a>
-                {tooltipWeb}
+
             </>
         );
     }
@@ -62,25 +62,25 @@ const Cards = ({ data }) => {
 
     return (
         <>
-        
-                            <div className="">
-                                <div class="flip-card" >                        
-                                            <div className="box-back">
-                                                <div className="card-container">
-                                                     <p className="header-card">{data.title}</p>
-                                                    <div className="box-logos">
-                                                        {github}
-                                                        {webpage}
-                                                    </div>
-                                                </div>
-                                                <div className="card-container">
-                                                    <p className="container-desc">{data.desc}</p>
-                                                    <img className="img-card-back" src={data.img} />
-                                                </div>
-                                            </div>
-                                </div>
+
+            <div className="">
+                <div class="flip-card" >
+                    <div className="box-back">
+                        <div className="card-container">
+                            <p className="header-card">{data.title}</p>
+                            <div className="box-logos">
+                                {github}
+                                {webpage}
                             </div>
-                       
+                        </div>
+                        <div className="card-container">
+                            <p className="container-desc">{data.desc}</p>
+                            <img className="img-card-back" alt={data.img} src={data.img} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
     );
 };
