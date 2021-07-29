@@ -14,9 +14,10 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.2",
     "react-text-loop": "^2.3.0",
+    "react-tooltip": "^4.2.21",
     "reveal": "0.0.4",
     "web-vitals": "^1.1.2"
   },
