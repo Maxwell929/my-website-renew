@@ -16,14 +16,14 @@ const Card = () => {
             <div className="container-cards">
 
                 {data.projects.map((d) => {
-                    
-                    time +=  400;
+
+                    time += 400;
                     return (
                         <>
-                        <Fade bottom duration={1500} delay={time} distance="400px" >
-                        <Cards key={d.id} data={d}/>
-                        </Fade >
-                     </>
+                            <Fade bottom duration={1500} delay={time} distance="400px" key={d.id} >
+                                <Cards data={d} />
+                            </Fade >
+                        </>
                     )
                 })}
             </div>
