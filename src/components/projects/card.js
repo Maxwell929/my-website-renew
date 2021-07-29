@@ -21,7 +21,7 @@ const Card = () => {
                     return (
                         <>
                         <Fade bottom duration={1500} delay={time} distance="400px" >
-                        <Cards data={d}/>
+                        <Cards key={d.id} data={d}/>
                         </Fade >
                      </>
                     )

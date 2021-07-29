@@ -18,6 +18,8 @@ const Footer = () => {
         </ReactTooltip>
 
       <p className="footer-name">2021 Maximilian Stelzl</p>
+      
+
     </div>
   );
 };

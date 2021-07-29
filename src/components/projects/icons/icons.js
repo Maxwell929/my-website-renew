@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 import ReactTooltip from "react-tooltip";
 
-const Icons = ({ data }) => {
+const Cards = ({ data }) => {
 
 
     let webpage;
@@ -85,4 +85,5 @@ const Icons = ({ data }) => {
     );
 };
 
-export default Icons;
+
+export default Cards;
