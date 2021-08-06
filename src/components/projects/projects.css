@@ -1,13 +1,13 @@
 .projects {
-    width: 100%;
+  width: 100%;
 
-    background: linear-gradient(
-        115deg,
-        rgb(15, 111, 221) 30%,
-        rgb(12, 171, 219) 70%
-    );
-    min-height: 80vh;
+  background: linear-gradient(
+    115deg,
+    rgb(15, 111, 221) 30%,
+    rgb(12, 171, 219) 70%
+  );
+  min-height: 80vh;
 
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  clip-path: polygon(0% 5%, 100% 0, 100% 100%, 0% 100%);
 }

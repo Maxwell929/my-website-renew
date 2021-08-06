@@ -1,8 +1,8 @@
 .container-cards {
   display: flex;
-  justify-content: space-around;
-
+  justify-content: start;
   flex-wrap: wrap;
+  padding: 30px;
 }
 
 .flip-card {
@@ -14,7 +14,7 @@
   transition: box-shadow 0.4s ease-in-out;
   background-color: white;
   color: rgb(58, 57, 57);
-  margin: 25px;
+  margin: 20px;
 }
 
 .flip-card:hover {
