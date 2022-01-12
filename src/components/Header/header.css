@@ -1,39 +1,36 @@
 .header {
     background: linear-gradient(
-        115deg,
-        rgb(10, 108, 219) 30%,
-        rgb(12, 171, 219) 70%
+            115deg,
+            rgb(10, 108, 219) 30%,
+            rgb(12, 171, 219) 70%
     );
     min-height: 80vh;
     width: 100%;
     color: rgb(241, 231, 231);
 }
 
-.header-box {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: 20%;
-    font-size: 100%;
-    line-height: 1.5;
-}
+/*.header-box {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    top: 10%;*/
+/*    line-height: 1.2;*/
+/*}*/
+
 .box-text {
-    font-size: 150%;
+    font-size: 130%;
     font-weight: 800;
 }
 
-.box-image {
-    display: flex;
-    justify-content: space-around;
-}
+/*.box-image {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
 
 .image-header {
-    
     height: auto;
-  width: 350px;
-  object-fit: cover;
-    
-    
+    width: 30%;
+    object-fit: cover;
 }
 
 .textLoop {
@@ -42,8 +39,8 @@
 }
 
 .logos {
-    height: 300px;
-   
+    height: 250px;
+
 }
 
 /* DOWN ARROWS*/
@@ -81,7 +78,8 @@
     }
 }
 
-@-webkit-keyframes arrow /*Safari and Chrome*/ {
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
     0% {
         opacity: 0;
     }
@@ -109,4 +107,12 @@
 .arrows path.a3 {
     animation-delay: 0s;
     -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}
+
+
+@media (max-width: 700px) {
+    .box-text {
+        font-size: 90%;
+        font-weight: 800;
+    }
 }
