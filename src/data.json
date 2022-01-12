@@ -4,11 +4,18 @@
   "nav_github": "https://github.com/Maxwell929",
   "p1": "Hello, I'm Maximilian!",
   "p2": "Welcome to my website!",
-  "loop": ["#React", "#Flutter", "#Machine Learning", "#Web-Development"],
+  "loop": [
+    "#React",
+    "#Flutter",
+    "#Machine Learning",
+    "#Web-Development"
+  ],
   "scroll_down": "SCROLL DOWN",
   "about": "ABOUT ME",
   "about_me": [
-    "My name is Maximilian and I'm 28 years old. Late but hopefully not too late I discovered my passion for programming.",
+    "Hi \uD83D\uDC4B, my name is Maximilian. Welcome to my website!",
+
+   "Late but hopefully not too late I discovered my passion for programming.",
     "After my studies in Marketing & Sales I was putting myself more and more into the world of IT. After the first lines of code in Python and a lot of initial struggling I build more and more enthusiasm for coding.",
     "I'm interested in topics like Web-Development (HTML, CSS, JavaScript, React), Web-Scraping, App-Development (Flutter), Machine Learning, Linux and other things. My future dream is to become a professional software developer.",
     "Beside coding and all the interesting IT topics I like to stay outside, play sqaush, deeptalk and cook some good southtyrolean Knödel."
@@ -24,7 +31,6 @@
       "website": "https://maximilianstelzl.dev/",
       "type": "Webpage"
     },
-
     {
       "id": "3",
       "title": " Karriere_at Web-Scraper",

@@ -24,7 +24,6 @@ const About = () => {
                 return (
                   <>
                     <p className="about_me-desc">{i}</p>
-
                   </>
                 );
               })}
