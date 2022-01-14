@@ -1,5 +1,4 @@
 .footer {
-    background: lightgray;
     padding: 10px;
     background-color: rgb(38, 38, 70);
 }
@@ -8,4 +7,5 @@
     font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
+    outline: none;
 }
