@@ -2,6 +2,7 @@
   "nav1": "About me",
   "nav2": "Projects",
   "nav_github": "https://github.com/Maxwell929",
+  "nav_linkedIn": "https://www.linkedin.com/in/maximilian-stelzl-8022b0225/",
   "p1": "Hello, I'm Maximilian!",
   "p2": "Welcome to my website!",
   "loop": [
@@ -32,7 +33,7 @@
       "type": "Webpage"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": " Karriere_at Web-Scraper",
       "year": "2021",
       "img": "karriere-at.png",
@@ -42,7 +43,7 @@
       "website": ""
     },
     {
-      "id": "4",
+      "id": "3",
       "title": "Rock, Paper Scissors Game",
       "year": "2021",
       "desc": "My very first Mini-Project made with HTML, CSS and Vanilla-JavaScript. Try it out and play a round!",
