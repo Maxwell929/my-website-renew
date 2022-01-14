@@ -6,6 +6,7 @@ import ReactTooltip from "react-tooltip";
 const Cards = ({ data }) => {
   let webpage;
   let github;
+  let linkedIn;
 
   let tooltipWeb = (
     <ReactTooltip id="Website" place="top" effect="solid">
@@ -16,6 +17,11 @@ const Cards = ({ data }) => {
   let tooltipGit = (
     <ReactTooltip id="Github" place="top" effect="solid">
       Github
+    </ReactTooltip>
+  );
+  let tooltipLinkedIn = (
+    <ReactTooltip id="LinkedIn" place="top" effect="solid">
+      LinkedIn
     </ReactTooltip>
   );
 
@@ -53,6 +59,25 @@ const Cards = ({ data }) => {
           <FaGithub className="logos" />
         </a>
         {tooltipGit}
+      </>
+    );
+  }
+
+  if (data.linkedIn === "") {
+    linkedIn = "";
+  } else {
+    linkedIn = (
+      <>
+        <a
+          href={data.linkedIn}
+          target={"_blank"}
+          rel="noopener"
+          data-tip
+          data-for="LinkedIn"
+        >
+          <FaGithub className="logos" />
+        </a>
+        {tooltipLinkedIn}
       </>
     );
   }
