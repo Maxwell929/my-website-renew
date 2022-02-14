@@ -1,7 +1,7 @@
 import React from "react";
 import herader1 from "./header.png";
 import data from "./../../data.json";
-import "./header.css";
+import "./header.scss";
 import {Link} from "react-scroll";
 import Fade from 'react-reveal/Fade';
 

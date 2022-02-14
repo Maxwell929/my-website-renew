@@ -1,6 +1,6 @@
 import React from "react";
 import data from "./../../data.json";
-import "./nav.css";
+import "./nav.scss";
 import {Link} from "react-scroll";
 import Fade from 'react-reveal/Fade';
 import logo from "./logo_small.png";

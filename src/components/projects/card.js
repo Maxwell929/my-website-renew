@@ -1,7 +1,7 @@
 
 import { React } from "react";
-import "./cards.css";
-import "./projects.css";
+import "./cards.scss";
+import "./projects.scss";
 import Fade from "react-reveal/Fade";
 import data from "./../../data.json";
 import Cards from "./icons/icons";

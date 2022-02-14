@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./about.css"
+import "./about.scss"
 import Fade from "react-reveal/Fade";
 import me from "./me.jpeg";
 import data from "./../../data.json"

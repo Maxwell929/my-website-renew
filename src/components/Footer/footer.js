@@ -1,7 +1,7 @@
 import React from "react";
 import data from "./../../data.json";
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
-import "./footer.css";
+import "./footer.scss";
 import ReactTooltip from "react-tooltip";
 
 
