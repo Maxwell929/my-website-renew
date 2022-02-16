@@ -11,3 +11,11 @@ html body {
     font-weight: 400;
     color: rgb(10, 53, 90);
 }
+
+
+
+.container{
+    width: calc(100% - 60px);
+    max-width: 1080px;
+    margin: 0 auto;
+}
