@@ -1,12 +1,18 @@
 .footer {
-    padding: 10px;
     background-color: rgb(38, 38, 70);
-}
+    padding: 1.5rem 0;
 
-.footer-name {
-    font-size: 15px;
-    color: whitesmoke;
-    font-weight: 500;
-    outline: none;
-}
+    a {
+        color: white;
+    }
 
+    .footer-name {
+        font-size: 15px;
+        color: whitesmoke;
+        font-weight: 500;
+        outline: none;
+
+    }
+
+
+}
