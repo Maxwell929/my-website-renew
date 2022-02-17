@@ -8,11 +8,12 @@ import ReactTooltip from 'react-tooltip';
 const Footer = () => {
     return (
         <footer className='footer'>
+            <div className=" footer__container">
             <a href={data.nav_github} target={'_blank'} rel='noopener'><FaGithub className='logos__footer' data-tip
                                                                                  data-for='Github'/></a>
             <a href={data.nav_linkedIn} target={'_blank'} rel='noopener'><FaLinkedin className='logos__footer' data-tip
                                                                                      data-for='LinkedIn'/></a>
-
+            </div>
             <ReactTooltip id='Github' place='top' effect='solid'>
                 Github
             </ReactTooltip>

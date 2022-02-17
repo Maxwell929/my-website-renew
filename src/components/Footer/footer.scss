@@ -2,9 +2,22 @@
     background-color: rgb(38, 38, 70);
     padding: 1.5rem 0;
 
-    a {
+
+
+.footer__container{
+    margin: 0 auto;
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+
+    a{
+        font-size: 1.8rem;
         color: white;
     }
+    a:hover{
+        color: lightgray;
+    }
+}
 
     .footer-name {
         font-size: 15px;
