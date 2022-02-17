@@ -24,13 +24,13 @@
     margin: auto 0;
 
     .container-logos {
-      width: 4rem;
+      width: 5rem;
       display: flex;
       justify-content: space-between;
       margin-left: 3rem;
 
       .logos-nav {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         padding-top: 0.7rem;
         color: white;
       }
@@ -41,9 +41,9 @@
     }
 
     button {
-      font-size: 80%;
-      font-weight: 600;
-      margin: 0 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 0 auto;
       cursor: pointer;
       background-color: gray;
       display: inline-block;
@@ -51,7 +51,6 @@
       background: none;
       border: none;
       color: aliceblue;
-
       background: transparent;
     }
 
