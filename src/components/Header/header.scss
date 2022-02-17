@@ -1,104 +1,34 @@
 .header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+                  115deg,
+                  rgb(10, 108, 219) 30%,
+                  rgb(12, 171, 219) 70%
+  );
+  height: calc(100vh - 4rem);
+  color: rgb(241, 231, 231);
+
+
+  .container__header {
     position: relative;
-    background: linear-gradient(
-            115deg,
-            rgb(10, 108, 219) 30%,
-            rgb(12, 171, 219) 70%
-    );
-    min-height: 80vh;
-    width: 100%;
-    color: rgb(241, 231, 231);
-}
+    top:  5%;
+    font-weight: 700;
 
-.box-text {
-    font-size: 120%;
-    font-weight: 800;
-}
-
-.image-header {
+  .image-header {
     height: auto;
-    width: 25%;
+    width: 25rem;
     object-fit: cover;
-}
-
-.textLoop {
-    font-size: 120%;
-    font-weight: 800;
-}
-
-
-/* DOWN ARROWS*/
-
-.arrows {
-    width: 60px;
-    height: 72px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    bottom: 25px;
-    cursor: pointer;
-}
-
-.arrows path {
-    stroke: #e0e7eb;
-    fill: transparent;
-    stroke-width: 2px;
-    animation: arrow 2s infinite;
-    -webkit-animation: arrow 2s infinite;
-}
-
-@keyframes arrow {
-    0% {
-        opacity: 0;
-    }
-    40% {
-        opacity: 1;
-    }
-    80% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes arrow /*Safari and Chrome*/
-{
-    0% {
-        opacity: 0;
-    }
-    40% {
-        opacity: 1;
-    }
-    80% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.arrows path.a1 {
-    animation-delay: -1s;
-    -webkit-animation-delay: -1s; /* Safari 和 Chrome */
-}
-
-.arrows path.a2 {
-    animation-delay: -0.5s;
-    -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
-}
-
-.arrows path.a3 {
-    animation-delay: 0s;
-    -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+  }
 }
 
 
 @media (max-width: 700px) {
-    .box-text {
-        font-size: 90%;
-        font-weight: 800;
-    }
-}
+  .box-text {
+    font-size: 90%;
+    font-weight: 800;
+  }
+}}
 
 
