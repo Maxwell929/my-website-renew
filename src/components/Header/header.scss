@@ -12,15 +12,26 @@
 
 
   .container__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     top:  5%;
+    line-height: .5;
     font-weight: 700;
 
   .image-header {
+    margin: 0 auto;
     height: auto;
     width: 25rem;
     object-fit: cover;
   }
+
+    .textLoop{
+     margin: 0 auto;
+    }
+
+
 }
 
 

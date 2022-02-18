@@ -14,9 +14,11 @@
   }
 
   .logo {
-    height: 3rem;
-    padding-top: 0.5rem;
+    width:5rem ;
+    padding-top: 0.7rem;
     cursor: pointer;
+    object-fit: scale-down;
+    margin: auto 0;
   }
 
   .nav-links {
@@ -31,7 +33,7 @@
 
       .logos-nav {
         font-size: 1.8rem;
-        padding-top: 0.7rem;
+        padding-top: 0.6rem;
         color: white;
       }
 
@@ -40,10 +42,12 @@
       }
     }
 
+
+
     button {
       font-size: 1.2rem;
       font-weight: 500;
-      margin: 0 0.5rem;
+      margin: 0 0.4rem;
       cursor: pointer;
       background-color: gray;
       display: inline-block;
@@ -53,6 +57,7 @@
       color: aliceblue;
       background: transparent;
     }
+
 
     span {
       display: block;
@@ -112,12 +117,6 @@
       top: 0;
       transition-duration: 0.5s;
     }
-
-
   }
-
-
 }
-
-/* BUTTON NAV */
 
