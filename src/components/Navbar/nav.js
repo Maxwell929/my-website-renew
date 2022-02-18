@@ -17,11 +17,11 @@ const Navbar = () => {
                     </Link>
 
                 <div className={'nav-links'}>
-                        <Link to='about' offset={-60} duration={1000} smooth={true} spy={true} activeClass="active">
-                            <button className='btn-4'><span>{data.nav1}</span></button>
+                        <Link className="nav__link" to='about' offset={-60} duration={1000} smooth={true} spy={true} activeClass="active">
+                            {data.nav1}
                         </Link>
-                        <Link to='projects' offset={-10} duration={1000} smooth={true} spy={true} activeClass="active">
-                            <button className='btn-4'><span>{data.nav2}</span></button>
+                        <Link className="nav__link" to='projects' offset={-10} duration={1000} smooth={true} spy={true} activeClass="active">
+                            {data.nav2}
                         </Link>
                     <div className='container-logos'>
                         <a href={data.nav_github} rel='noopener' target={'_blank'}><FaGithub className='logos-nav'/></a>
