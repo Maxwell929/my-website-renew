@@ -1,3 +1,5 @@
+@use "../../style/variables";
+
 .nav {
   position: sticky;
   display: flex;
@@ -6,7 +8,7 @@
   width: 100%;
   z-index: 10;
   padding: 0;
-  background-color: rgb(38, 38, 70);
+  background-color: variables.$secondaryColor;
 
   .navbar__container {
     display: flex;
@@ -34,7 +36,7 @@
       .logos-nav {
         font-size: 1.8rem;
         padding-top: 0.6rem;
-        color: white;
+        color: variables.$primary-color;
       }
 
       .logos-nav:hover {
@@ -49,12 +51,11 @@
       font-weight: 500;
       margin: 0 0.4rem;
       cursor: pointer;
-      background-color: gray;
       display: inline-block;
       position: relative;
       background: none;
       border: none;
-      color: aliceblue;
+      color: variables.$primary-color;
       background: transparent;
     }
 
@@ -71,7 +72,7 @@
       height: 3px;
       position: absolute;
       transition: all 0.7s linear;
-      background: #fff;
+      background: variables.$primary-color;
     }
 
     span::before,
@@ -81,7 +82,7 @@
       height: 0;
       position: absolute;
       transition: all 0.7s linear;
-      background: #fff;
+      background: variables.$primary-color;
     }
 
     button:hover::before,

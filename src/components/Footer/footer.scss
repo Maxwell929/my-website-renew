@@ -1,29 +1,31 @@
+@use "../../style/variables";
 .footer {
-    background-color: rgb(38, 38, 70);
+    background-color: variables.$secondaryColor;
     padding: 1.5rem 0;
 
 
 
+
 .footer__container{
+    display: flex;
     margin: 0 auto;
     width: 5rem;
-    display: flex;
     justify-content: space-around;
 
     a{
         font-size: 1.8rem;
-        color: white;
+        color: variables.$primary-color;
     }
     a:hover{
-        color: lightgray;
+        color: variables.$hoverColor;
     }
 }
 
     .footer-name {
         font-size: 15px;
-        color: whitesmoke;
         font-weight: 500;
         outline: none;
+        color: variables.$primary-color;
 
     }
 

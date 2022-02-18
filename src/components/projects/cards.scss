@@ -1,3 +1,5 @@
+@use "../../style/variables";
+
 .container-cards {
   display: flex;
   justify-content: space-evenly;
@@ -12,8 +14,8 @@
   padding: 10px;
   border-radius: 10px;
   transition: box-shadow 0.4s ease-in-out;
-  background-color: white;
-  color: rgb(58, 57, 57);
+  background-color: variables.$primary-color;
+  color: variables.$secondaryColor;
   margin: 20px;
 }
 
@@ -54,11 +56,11 @@
   height: 30px;
   background-color: transparent;
   padding-left: 10px;
-  color: rgb(36, 36, 90);
+  color: variables.$secondaryColor;
 }
 
 .logos:hover {
-  color: grey;
+  color: variables.$hoverColor;
 }
 
 .container-desc {

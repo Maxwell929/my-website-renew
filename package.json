@@ -19,6 +19,7 @@
     "react-text-loop": "^2.3.0",
     "react-tooltip": "^4.2.21",
     "reveal": "0.0.4",
+    "sass": "^1.49.8",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
