@@ -4,9 +4,9 @@
   width: 100%;
   overflow: hidden;
   background: linear-gradient(
-                  115deg,
-                  rgb(10, 108, 219) 30%,
-                  rgb(12, 171, 219) 70%
+                  175deg,
+                  variables.$backgroundColor-1 30%,
+                 variables.$backgroundColor-2 80%
   );
   height: calc(100vh - 4rem);
   color: variables.$primary-color;
