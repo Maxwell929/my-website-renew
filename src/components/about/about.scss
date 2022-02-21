@@ -1,5 +1,9 @@
+@use "../../style/variables";
+
+
 .about {
-    background: rgb(255, 255, 255);
+    min-height: 87vh;
+    background: variables.$primary-color;
     width: 100%;
     padding: 0;
 
