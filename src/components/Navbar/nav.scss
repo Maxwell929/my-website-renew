@@ -12,12 +12,12 @@
 
   .navbar__container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 
   .logo {
-    width:5rem ;
-    padding-top: 0.7rem;
+    width: 5rem;
     cursor: pointer;
     object-fit: scale-down;
     margin: auto 0;
@@ -25,17 +25,17 @@
 
   .nav-links {
     display: flex;
-    margin: auto 0;
+    align-items: center;
 
     .container-logos {
-      width: 5rem;
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      margin-left: 3rem;
+      margin-left: 2rem;
 
       .logos-nav {
         font-size: 1.8rem;
-        padding-top: 0.6rem;
+        padding: 0 0.7rem;
         color: variables.$primary-color;
       }
 
@@ -45,22 +45,22 @@
     }
 
 
-      .nav__link {
-        @include variables.magic-border(4px, variables.$primary-color, 0.2s, 0);
-        padding: 0.5rem;
-        font-size: 1.2rem;
-        font-weight: 700;
-        margin: auto 0.6rem;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        background: none;
-        border: none;
-        color: variables.$primary-color;
-        background: transparent;
-      }
+    .nav__link {
+      @include variables.magic-border(4px, variables.$primary-color, 0.2s, 0);
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: auto 0.6rem;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      background: none;
+      border: none;
+      color: variables.$primary-color;
+      background: transparent;
+    }
 
-    .active{
+    .active {
       background: variables.$primary-color;
       color: variables.$secondaryColor;
       transition: all 0.6s;
