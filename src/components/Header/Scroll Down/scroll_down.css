@@ -1,10 +1,8 @@
 .mouse_scroll {
-  position: absolute;
   width: 24px;
   height: 100px;
   cursor: pointer;
-  bottom: 0;
-  left: 49%;
+  align-self: flex-end;
 }
 
 .m_scroll_arrows {

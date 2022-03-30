@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <Fade delay="200" duration="2000">
-      <section id="about" className="about">
+      <section id="about" className="about container">
         <h2>{data.about}</h2>
 
         <div className="box-about">
